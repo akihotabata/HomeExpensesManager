@@ -180,15 +180,7 @@ rmdir /s /q build dist
 
 del /q *.spec
 
-pyinstaller ^
---onefile ^
---windowed ^
---clean ^
---noconfirm ^
---icon="kakeibo_icon_v2.ico" ^
---add-data "kakeibo_icon_v2.ico;." ^
---name "家計簿" ^
-household_gui.py
+pyinstaller --onefile --windowed --clean --noconfirm --icon="%cd%\kakeibo_icon_v2.ico" --add-data "%cd%\kakeibo_icon_v2.ico;." --name "HouseHoldExpensesManager" household_gui.py
 ```
 
 生成先
