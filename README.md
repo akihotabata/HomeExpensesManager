@@ -218,9 +218,9 @@ HomeExpensesManager
 ├─ kakeibo_icon_v2.ico
 ├─ household.db
 │
-├─ build
-├─ dist
-└─ venv
+├─ build #EXE化する際に自動生成
+├─ dist #EXE化する際に自動生成
+└─ venv #モジュールのインストールやコマンドによる起動時に必要
 ```
 
 ---
