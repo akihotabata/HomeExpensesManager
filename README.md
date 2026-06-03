@@ -203,8 +203,8 @@ household.db
 
 ```text
 household.db
-をコピーするだけ
 ```
+をコピーするだけ
 
 ---
 
